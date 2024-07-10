@@ -1,0 +1,12 @@
+# Prueba de primer github actions
+name: Ejemplo Github Actions Java
+
+on:
+    push:
+        branches: ["main"]
+    pull_request:
+        branches: ["main"]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
